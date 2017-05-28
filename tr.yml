@@ -1,7 +1,8 @@
 sudo : required
+
 before_install:
-        -apt-get update
-        -apt-get install python-pytest, python-setuptools
+        -sudo apt-get update
+        -sudo apt-get install python-pytest, python-setuptools
 
 install:
        -python math_options.py
